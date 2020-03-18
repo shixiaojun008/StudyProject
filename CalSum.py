@@ -1,3 +1,9 @@
-a = 5
-b = 6
-print(a+b)
+import business.Calculate
+
+cal = business.Calculate.Calculate(8, 9)
+
+print(cal.sum())
+
+
+
+

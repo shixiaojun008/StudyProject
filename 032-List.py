@@ -26,7 +26,7 @@ print(list3)
 
 print("A" in list1)
 
-'''
+
 
 list11 = [1, 5, 7, 8, 5, 3, 6]
 list11.sort()
@@ -44,7 +44,7 @@ print("\nFinish!")
 for i in range(0,100,5):
     print(i,end=',')
 
-
+'''
 
 
 

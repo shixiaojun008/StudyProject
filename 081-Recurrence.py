@@ -29,7 +29,7 @@ def recur_fibo(n):
 # 获取用户输入
 # nterms = int(input("您要输出几项? "))
 
-nterms = 50
+nterms = 10
 
 # 检查输入的数字是否正确
 if nterms <= 0:
@@ -38,3 +38,20 @@ else:
     print("斐波那契数列:")
     for i in range(nterms):
         print(recur_fibo(i), end="\t")
+
+
+print("\n")
+
+
+# ******** 计算 n 的阶乘 **********
+
+number = 5
+def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+result = factorial(number)
+print("{0}的阶乘结果是:{1}".format(number, result))
+

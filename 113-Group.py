@@ -1,3 +1,8 @@
+'''
+    1、使用组合实现代码的复用
+
+'''
+
 class Student:
 
     def __init__(self, name, age, score):

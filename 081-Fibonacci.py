@@ -1,5 +1,4 @@
 import numpy as np
-import numpy.matlib
 
 
 ### *****************方法一 生成数列************************

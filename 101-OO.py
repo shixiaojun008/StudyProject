@@ -58,6 +58,7 @@ tch01.getInfo()
 
 print("**" * 50)
 
+
 '''
 # 通过 mro()方法查看类的结构
 print(Student.mro())
